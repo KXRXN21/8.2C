@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/YOUR_USERNAME/8.2CDevSecOps.git'
+        git branch: 'main', url: 'https://github.com/KXRXN21/8.2C.git'
       }
     }
     stage('Install Dependencies') {
